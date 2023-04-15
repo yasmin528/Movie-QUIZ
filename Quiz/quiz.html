@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/quiz.css">
+    <title>Movie Quiz</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="websitePic">
+            <img src="Assets/images/intro.jpg" alt="movie intro">
+        </div>
+        <div class="intro">
+            <p class="mainText">Movie Quiz</p>
+            <button class="startButton" onclick="">Start</button>
+        </div>
+        <div class="quiz">
+            <p class="noQ"></p>
+            <p class="question"></p>
+            <div class="option-container">
+                <button class="option op1"></button>
+
+                <button class="option op2"></button>
+
+                <button class="option op3"></button>
+
+                <button class="option op4"></button>
+            </div>
+            <button class="next">Next</button>
+        </div>
+        <div class="resultWinner">
+            <img src="Assets/images/win.gif" alt="you win" class="winGif">
+            <p class="winText"></p>
+            <button class="again" onclick="location.reload()">Play Again</button>
+        </div>
+        <div class="resultloser">
+            <img src="Assets/images/lost.gif" alt="you lost" class="lostGif">
+            <p class="loseText"></p>
+            <button class="again" onclick="location.reload()">Play Again</button>
+        </div>
+    </section>
+    <script src="./Assets/quiz.js"></script>
+</body>
+
+</html>
